@@ -26,6 +26,7 @@ ThinkPHPV6.0版本由[亿速云](https://www.yisu.com/)独家赞助发布。
 
 ~~~
 composer create-project topthink/think tp 6.0.*
+composer require topthink/think-multi-app //安装多应用模式扩展
 ~~~
 
 如果需要更新框架使用
