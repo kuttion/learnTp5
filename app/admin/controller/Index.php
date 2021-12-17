@@ -9,9 +9,9 @@ class Index extends BaseController
 {
 
 
-    public function index()
+    public function index($name = 'ThinkPHP6')
     {
-        echo 'test234';
+        return 'hello,' . $name;
     }
 
     public function hello($name = 'ThinkPHP6')
